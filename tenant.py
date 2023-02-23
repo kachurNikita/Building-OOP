@@ -24,7 +24,7 @@ class Tenant:
         return self.phone
 
     @staticmethod
-    def tenant_apartment(base, apartment):
+    def tenants_in_apartment(base, apartment):
         print(f'In apartment {apartment} lives:')
         for tenant in base:
             print(base[tenant]['name'])

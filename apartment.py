@@ -29,8 +29,8 @@ class Apartment:
                 }
                 self.tenants.append(quantity.pop())
 
-    def tenant_apartment(self,):
-        return Tenant.tenant_apartment(self.base, self.apartment_id)
+    def tenants_in_apartment(self,):
+        return Tenant.tenants_in_apartment(self.base, self.apartment_id)
 
     def __str__(self):
         return f'Apartment: N:{self.apartment_id}'
